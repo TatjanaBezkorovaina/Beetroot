@@ -1,0 +1,20 @@
+.c-getStarted {
+  position: relative;
+  margin-top: 5%;
+  background-color: $c-light-grey;
+  max-width: 1275px;
+  padding: 3% 5%;
+  left: 0;
+
+  &__title {
+    font-family: $f-poppins;
+    line-height: 74px;
+    font-weight: 700;
+    max-width: 822px;
+    font-size: 60px;
+    @media (max-width: 768px) {
+      line-height: 60px;
+      font-size: 40px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.c-header {
+  &__wrapper {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+  }
+}
+
+.container-fluid {
+  z-index: 3;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-toggler {
+  border-radius: 50%;
+  background-color: $c-white;
+  padding: 0.4rem 0.4rem;
+}
+
+.offcanvas-end {
+  background-color: #808d71;
+  z-index: 9999;
+}

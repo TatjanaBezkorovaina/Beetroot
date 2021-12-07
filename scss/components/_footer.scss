@@ -1,0 +1,60 @@
+.c-footer {
+  font-family: $f-poppins;
+  z-index: 0;
+  background-image: url("../../assets/img/FooterBGR.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 300px;
+  margin-top: -13%;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+
+  &__contacts {
+    &-value {
+      margin-top: 5px;
+    }
+    &-text {
+      color: $c-grey;
+    }
+  }
+
+  &__middle {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  &__social {
+    &-subtitle {
+      padding-top: 1%;
+      color: $c-grey;
+    }
+    &-icons {
+      margin-top: 4%;
+    }
+  }
+
+  &__bottom {
+    padding-bottom: 5%;
+
+    &-copyrights {
+      font-size: 14px;
+      color: $c-grey;
+      text-align: end;
+      @media (max-width: 768px) {
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+// Bootstrap icon
+.bi {
+  margin-right: 2%;
+  opacity: 0.7;
+}
+.bi:hover {
+  opacity: 1;
+}
