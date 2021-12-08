@@ -13,6 +13,7 @@
 }
 
 .navbar {
+  flex-wrap: nowrap;
   padding: 0;
 }
 
@@ -215,4 +216,9 @@ body {
   .titleindent {
     margin-bottom: 5px;
   }
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
 }
