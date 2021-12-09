@@ -1,14 +1,14 @@
 .c-header {
   &__wrapper {
-    margin: 0 auto;
     max-width: 1100px;
+    margin: 0 auto;
     width: 100%;
   }
 }
 
 .container-fluid {
-  z-index: 3;
   position: absolute;
+  z-index: 3;
   left: 0;
   top: 0;
 }
@@ -19,9 +19,9 @@
 }
 
 .navbar-toggler {
-  border-radius: 50%;
   background-color: $c-white;
   padding: 0.4rem 0.4rem;
+  border-radius: 50%;
 }
 
 .offcanvas-end {

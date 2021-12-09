@@ -2,10 +2,10 @@
   text-decoration: none;
   line-height: 40px;
   color: $c-grey;
-}
 
-.e-link:hover {
-  color: $c-yellow;
+  &:hover {
+    color: $c-yellow;
+  }
 }
 
 .link-secondary {

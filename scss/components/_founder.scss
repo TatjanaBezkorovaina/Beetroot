@@ -1,15 +1,20 @@
 .c-founder {
-  margin-top: 7%;
-  @media (max-width: 938px) {
-    margin-top: 25%;
+  margin-top: 95px;
+  &__ceo {
+    &-name {
+      @media (max-width: 991px) {
+        margin-top: 20px;
+      }
+    }
   }
-  @media (max-width: 749px) {
-    margin-top: 37%;
+
+  @media (max-width: 979px) {
+    margin-top: 200px;
   }
-  @media (max-width: 562px) {
-    margin-top: 75%;
+  @media (max-width: 619px) {
+    margin-top: 310px;
   }
-  @media (max-width: 374px) {
-    margin-top: 160%;
+  @media (max-width: 439px) {
+    margin-top: 530px;
   }
 }
