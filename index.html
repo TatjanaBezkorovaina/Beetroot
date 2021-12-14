@@ -29,6 +29,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Google map -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <!-- main style -->
     <link rel="stylesheet" href="./main.css" />
   </head>
@@ -262,7 +264,6 @@
           </div>
         </div>
       </div>
-
       <!-- Project-2 -->
       <div
         class="
@@ -470,6 +471,7 @@
     <footer class="c-footer text-white">
       <div class="c-footer__wrapper container">
         <div class="c-footer__top row">
+          <div class="c-footer__contacts-map rounded" id="map"></div>
           <div class="c-footer__contacts-item col-sm-12 col-lg-3 g-0">
             <div class="c-footer__contacts-text">Phone</div>
             <a href="tel:+3250312832" class="e-link text-white fw-bold"
@@ -697,6 +699,11 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
+    ></script>
+    <!-- Maps Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiEmsKAKsKemDEdKCyGaW-Klp3XYlUQN8&region=EN&language=en&callback=initMap&v=weekly"
+      async
     ></script>
     <script src="./index.js"></script>
   </body>

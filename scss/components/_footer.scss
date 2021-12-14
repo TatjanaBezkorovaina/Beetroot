@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 300px;
+  padding-top: 235px;
   margin-top: -160px;
   z-index: 0;
   @media (max-width: 768px) {
@@ -17,6 +17,7 @@
     }
     &-text {
       color: $c-grey;
+      margin-top: 50px;
     }
   }
 
@@ -57,4 +58,9 @@
 }
 .bi:hover {
   opacity: 1;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 300px;
 }

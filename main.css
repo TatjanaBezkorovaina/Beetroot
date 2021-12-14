@@ -31,6 +31,7 @@ body {
 
 .h-container {
   max-width: 1440px;
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -87,7 +88,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 300px;
+  padding-top: 235px;
   margin-top: -160px;
   z-index: 0;
 }
@@ -101,6 +102,7 @@ body {
 }
 .c-footer__contacts-text {
   color: #b6c197;
+  margin-top: 50px;
 }
 .c-footer__middle {
   margin-bottom: 60px;
@@ -135,6 +137,11 @@ body {
 
 .bi:hover {
   opacity: 1;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 300px;
 }
 
 .c-banner {
@@ -234,11 +241,11 @@ body {
   padding-top: 150px;
 }
 .c-projects__row {
-  max-width: 976px;
-  display: flex;
+  margin-bottom: 110px;
   align-items: center;
   margin-left: 105px;
-  margin-bottom: 110px;
+  max-width: 976px;
+  display: flex;
 }
 @media (max-width: 992px) {
   .c-projects__row {
@@ -247,8 +254,8 @@ body {
   }
 }
 .c-projects__title {
-  width: 100%;
   max-width: 515px;
+  width: 100%;
 }
 .c-projects__subtitle {
   margin-left: 50px;
@@ -260,9 +267,9 @@ body {
   }
 }
 .c-projects__one {
-  display: flex;
-  position: relative;
   margin-bottom: 200px;
+  position: relative;
+  display: flex;
 }
 @media (max-width: 768px) {
   .c-projects__one {
@@ -281,10 +288,10 @@ body {
   width: 100%;
 }
 .c-projects__sidebar {
-  width: 50%;
-  max-width: 475px;
-  padding-left: 8%;
   padding-right: 20px;
+  padding-left: 8%;
+  max-width: 475px;
+  width: 50%;
 }
 @media (max-width: 768px) {
   .c-projects__sidebar {
@@ -305,12 +312,12 @@ body {
   margin-left: 8%;
 }
 .c-projects__ceo {
-  position: absolute;
   background-color: #ffff;
-  max-width: 445px;
-  width: 100%;
+  position: absolute;
   margin-left: 325px;
   margin-top: -175px;
+  max-width: 445px;
+  width: 100%;
 }
 @media (max-width: 1160px) {
   .c-projects__ceo {
@@ -330,8 +337,8 @@ body {
   }
 }
 .c-projects__ceo-img {
-  padding-top: 5px;
   padding-right: 15px;
+  padding-top: 5px;
 }
 @media (max-width: 991px) {
   .c-projects__ceo-name {
