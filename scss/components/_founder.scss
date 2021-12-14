@@ -1,5 +1,8 @@
 .c-founder {
   margin-top: 95px;
+  padding-bottom: 160px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
   &__ceo {
     &-name {
       @media (max-width: 991px) {
