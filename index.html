@@ -111,11 +111,13 @@
     <div class="c-banner">
       <div class="c-banner__wrapper container mt-5">
         <div class="c-banner__content">
-          <div class="c-banner__subtitle text-white">A place where</div>
-          <h1 class="c-banner__title text-white">
+          <div class="c-banner__subtitle text-white _anim-items">
+            A place where
+          </div>
+          <h1 class="c-banner__title text-white _anim-items">
             A creative agency for redemptive brands
           </h1>
-          <p class="c-banner__subtitle text-white">
+          <p class="c-banner__subtitle text-white _anim-items">
             Anteelo is a leading strategic design firm that builds powerful
             digital solutions for startups and enterprises.
           </p>
@@ -172,7 +174,11 @@
             fosters candid collaboration.
           </div>
           <div class="c-founder__strategy-link p-3">
-            <a href="#" class="link-secondary fw-bold text-uppercase"
+            <a
+              href="#"
+              class="link-secondary fw-bold text-uppercase"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal2"
               >&rtrif; More know About us</a
             >
           </div>
@@ -218,14 +224,14 @@
         </div>
       </div>
       <!-- Project-1 -->
-      <div class="c-projects__one h-container">
+      <div class="c-projects__one h-container _anim-items">
         <div class="c-projects__left-part">
           <img
             src="./assets/img/Project1.jpg"
             alt="figures"
             class="c-projects__img-adapt"
           />
-          <div class="c-projects__ceo shadow-lg p-4 rounded">
+          <div class="c-projects__ceo shadow-lg p-4 rounded _anim-items">
             <div class="c-projects__ceo-quote">
               <em
                 >“In my history of working with trade show vendors, I can
@@ -270,6 +276,7 @@
           c-projects__one c-projects__one--reverce
           justify-content-between
           h-container
+          _anim-items
         "
       >
         <div class="c-projects__left-part">
@@ -284,6 +291,7 @@
               shadow-lg
               p-4
               rounded
+              _anim-items
             "
           >
             <div class="c-projects__ceo-quote">
@@ -326,14 +334,14 @@
         </div>
       </div>
       <!-- Project-3 -->
-      <div class="c-projects__one h-container">
+      <div class="c-projects__one h-container _anim-items">
         <div class="c-projects__left-part">
           <img
             src="./assets/img/Project3.jpg"
             alt="figures"
             class="c-projects__img-adapt"
           />
-          <div class="c-projects__ceo shadow-lg p-4 rounded">
+          <div class="c-projects__ceo shadow-lg p-4 rounded _anim-items">
             <div class="c-projects__ceo-quote">
               <em
                 >“Exhibit Systems is not a provider. They are not a supplier.
@@ -383,7 +391,9 @@
           >
         </h2>
         <ul class="c-services__list row gx-5 list-unstyled">
-          <li class="c-services__list-item col-sm-6 col-md-6 col-lg-3">
+          <li
+            class="c-services__list-item col-sm-6 col-md-6 col-lg-3 _anim-items"
+          >
             <div class="wrapper">
               <div class="e-item-subtitle text-uppercase fs-4 mb-3">
                 Product <br />
@@ -400,7 +410,14 @@
               >
             </div>
           </li>
-          <li class="c-services__list-item col-sm-6 col-md-6 col-lg-3">
+          <li
+            class="
+              c-services__list-item
+              col-sm-6 col-md-6 col-lg-3
+              _anim-items
+              second
+            "
+          >
             <div class="wrapper">
               <div class="e-item-subtitle text-uppercase fs-4 mb-3">
                 Scoping <br />
@@ -417,7 +434,14 @@
               >
             </div>
           </li>
-          <li class="c-services__list-item col-sm-6 col-md-6 col-lg-3">
+          <li
+            class="
+              c-services__list-item
+              col-sm-6 col-md-6 col-lg-3
+              _anim-items
+              third
+            "
+          >
             <div class="wrapper">
               <div class="e-item-subtitle text-uppercase fs-4 mb-3">
                 UX <br />
@@ -434,7 +458,14 @@
               >
             </div>
           </li>
-          <li class="c-services__list-item col-sm-6 col-md-6 col-lg-3">
+          <li
+            class="
+              c-services__list-item
+              col-sm-6 col-md-6 col-lg-3
+              _anim-items
+              fourth
+            "
+          >
             <div class="wrapper">
               <div class="e-item-subtitle text-uppercase fs-4 mb-3">
                 Code <br />
@@ -455,13 +486,23 @@
       </div>
     </section>
     <!-- Let's get started -->
-    <section class="c-getStarted shadow-lg">
+    <section class="c-getStarted shadow-lg _anim-items">
       <div class="c-getStarted__row row">
         <div class="c-getStarted__col col-12">
           <h1 class="c-getStarted__title">
             Let’s make something amazing together.
           </h1>
-          <a href="#" class="link-secondary fw-bold text-uppercase"
+          <a
+            href="#"
+            class="
+              c-getStarted__link
+              link-secondary
+              fw-bold
+              text-uppercase
+              _anim-items
+            "
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal3"
             >&rtrif; Let's get started</a
           >
         </div>
@@ -608,7 +649,7 @@
         </div>
       </div>
     </footer>
-    <!-- Modal Get in touch Banner -->
+    <!-- Modal Banner Get in touch -->
     <div
       class="modal fade"
       id="exampleModal"
@@ -685,11 +726,85 @@
                 <div class="invalid-tooltip">Please provide a valid city.</div>
               </div>
               <div class="col-12 mt-5">
-                <button class="btn btn-primary" type="submit">
+                <button class="btn btn-warning" type="submit">
                   Submit form
                 </button>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Section founder MoreKnow about us -->
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel2">
+              A creative agency for redemptive brands
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-container">
+              <iframe
+                src="https://www.youtube.com/embed//7-DMAG3sdZI"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Section Get started -->
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel3">New message</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"
+                  >Your name:</label
+                >
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label"
+                  >Message:</label
+                >
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-warning">Send message</button>
           </div>
         </div>
       </div>

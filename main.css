@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
 * {
   box-sizing: border-box;
@@ -45,7 +46,7 @@ body {
 }
 
 .link-secondary {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .link-secondary:hover {
@@ -230,6 +231,7 @@ body {
   margin-bottom: 70px;
   font-weight: 500;
   display: flex;
+  opacity: 0;
 }
 @media (max-width: 768px) {
   .c-services__list-item {
@@ -318,6 +320,7 @@ body {
   margin-top: -175px;
   max-width: 445px;
   width: 100%;
+  opacity: 0;
 }
 @media (max-width: 1160px) {
   .c-projects__ceo {
@@ -369,5 +372,225 @@ body {
 @media (max-width: 439px) {
   .c-founder {
     margin-top: 530px;
+  }
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c-banner__subtitle._active,
+.c-banner__title._active {
+  -webkit-animation-name: pop-up-title;
+          animation-name: pop-up-title;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes pop-up-title {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 80%);
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes pop-up-title {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 80%);
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+.c-services__list-item._active {
+  -webkit-animation-name: pop-up-li;
+          animation-name: pop-up-li;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.c-services__list-item._active.second {
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+  -webkit-animation-name: pop-up-li;
+          animation-name: pop-up-li;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.c-services__list-item._active.third {
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  -webkit-animation-name: pop-up-li;
+          animation-name: pop-up-li;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.c-services__list-item._active.fourth {
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+  -webkit-animation-name: pop-up-li;
+          animation-name: pop-up-li;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes pop-up-li {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 80%);
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes pop-up-li {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 80%);
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+.c-projects__ceo._active {
+  -webkit-animation-name: appearance;
+          animation-name: appearance;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  transform-origin: center center;
+}
+
+@-webkit-keyframes appearance {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+@keyframes appearance {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+.c-getStarted._active {
+  -webkit-animation-name: outgoing;
+          animation-name: outgoing;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes outgoing {
+  0% {
+    transform: translate(-100%, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes outgoing {
+  0% {
+    transform: translate(-100%, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.c-getStarted__link._active {
+  -webkit-animation-name: colorСchange;
+          animation-name: colorСchange;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes colorСchange {
+  0% {
+    color: #b6c197;
+  }
+  50% {
+    color: #080808;
+  }
+  100% {
+    color: #ffd723;
+  }
+}
+
+@keyframes colorСchange {
+  0% {
+    color: #b6c197;
+  }
+  50% {
+    color: #080808;
+  }
+  100% {
+    color: #ffd723;
   }
 }
