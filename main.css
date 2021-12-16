@@ -66,6 +66,11 @@ body {
   left: 0;
   top: 0;
 }
+@media (max-width: 350px) {
+  .container-fluid {
+    flex-direction: column;
+  }
+}
 
 .navbar {
   flex-wrap: nowrap;
@@ -76,6 +81,11 @@ body {
   background-color: #ffff;
   padding: 0.4rem 0.4rem;
   border-radius: 50%;
+}
+@media (max-width: 350px) {
+  .navbar-toggler {
+    margin-top: 20px;
+  }
 }
 
 .offcanvas-end {
@@ -245,14 +255,13 @@ body {
 .c-projects__row {
   margin-bottom: 110px;
   align-items: center;
-  margin-left: 105px;
   max-width: 976px;
   display: flex;
 }
 @media (max-width: 992px) {
   .c-projects__row {
     display: block;
-    margin-left: 40px;
+    padding-left: 40px;
   }
 }
 .c-projects__title {
@@ -312,6 +321,12 @@ body {
 .c-projects__sidebar--reverse {
   padding-left: 0;
   margin-left: 8%;
+}
+@media (max-width: 768px) {
+  .c-projects__sidebar--reverse {
+    padding-left: 8%;
+    margin-left: 0;
+  }
 }
 .c-projects__ceo {
   background-color: #ffff;
@@ -464,8 +479,8 @@ body {
 }
 
 .c-services__list-item._active.fourth {
-  -webkit-animation-delay: 1200ms;
-          animation-delay: 1200ms;
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
   -webkit-animation-name: pop-up-li;
           animation-name: pop-up-li;
   -webkit-animation-duration: 1s;
