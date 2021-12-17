@@ -164,10 +164,6 @@ body {
   padding-bottom: 100px;
   padding-top: 189px;
 }
-.c-banner__wrapper {
-  position: relative;
-  max-width: 1110px;
-}
 .c-banner__content {
   margin-bottom: 55px;
   max-width: 615px;
