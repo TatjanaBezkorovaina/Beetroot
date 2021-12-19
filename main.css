@@ -164,6 +164,9 @@ body {
   padding-bottom: 100px;
   padding-top: 189px;
 }
+.c-banner__wrapper {
+  max-width: 1110px;
+}
 .c-banner__content {
   margin-bottom: 55px;
   max-width: 615px;
@@ -251,27 +254,28 @@ body {
 .c-projects__row {
   margin-bottom: 110px;
   align-items: center;
-  max-width: 976px;
+  max-width: 1110px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-@media (max-width: 992px) {
+@media (max-width: 1145px) {
   .c-projects__row {
-    display: block;
-    padding-left: 40px;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 899px) {
+  .c-projects__row {
+    text-align: center;
   }
 }
 .c-projects__title {
-  max-width: 515px;
+  max-width: 400px;
   width: 100%;
 }
 .c-projects__subtitle {
-  margin-left: 50px;
-}
-@media (max-width: 992px) {
-  .c-projects__subtitle {
-    margin-left: 0;
-    margin-right: 20px;
-  }
+  max-width: 500px;
+  width: 100%;
 }
 .c-projects__one {
   margin-bottom: 200px;
@@ -364,6 +368,9 @@ body {
   margin-top: 95px;
   padding-bottom: 160px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.c-founder__wrapper {
+  max-width: 1110px;
 }
 @media (max-width: 991px) {
   .c-founder__ceo-name {
