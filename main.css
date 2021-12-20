@@ -187,6 +187,10 @@ body {
   }
 }
 
+.form-label {
+  margin-bottom: 0;
+}
+
 .c-partners {
   background-color: #fafafa;
   position: absolute;
@@ -198,6 +202,7 @@ body {
 }
 
 .c-getStarted {
+  transform: translate(-100%, 0px);
   background-color: #fafafa;
   padding-bottom: 65px;
   padding-left: 55px;
@@ -307,7 +312,7 @@ body {
 @media (max-width: 768px) {
   .c-projects__sidebar {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 60px;
   }
 }
 .c-projects__sidebar-link {
