@@ -78,7 +78,7 @@ body {
 }
 
 .navbar-toggler {
-  background-color: #ffff;
+  background-color: white;
   padding: 0.4rem 0.4rem;
   border-radius: 50%;
 }
@@ -334,7 +334,7 @@ body {
   }
 }
 .c-projects__ceo {
-  background-color: #ffff;
+  background-color: white;
   position: absolute;
   margin-left: 325px;
   margin-top: -175px;
